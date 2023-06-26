@@ -65,9 +65,10 @@ ALLOWED_HOSTS = [
     'https://again-moments-d2bdd3c5ef83.herokuapp.com/',
     'localhost',
     '8000-wulle91-drfapi-nlp38vf1ucy.ws-eu100.gitpod.io',
+    'https://8000-wulle91-drfapi-nlp38vf1ucy.ws-eu100.gitpod.io'
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-wulle91-djangoreact-5643y6znzg1.ws-eu100.gitpod.io', 'https://pythondjangorest-f503576af96c.herokuapp.com']
+
 
 if 'CLIENT_ORIGIN' in os.environ:
     CORS_ALLOWED_ORIGINS = [
