@@ -62,10 +62,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = [
-    'https://again-moments-d2bdd3c5ef83.herokuapp.com',
+    'again-moments-d2bdd3c5ef83.herokuapp.com',
     'localhost',
     '8000-wulle91-drfapi-nlp38vf1ucy.ws-eu100.gitpod.io',
-    'https://8000-wulle91-drfapi-nlp38vf1ucy.ws-eu100.gitpod.io'
+    'https://8000-wulle91-drfapi-nlp38vf1ucy.ws-eu100.gitpod.io',
 ]
 
 
