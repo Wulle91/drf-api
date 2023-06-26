@@ -15,7 +15,7 @@ import os
 import re
 import dj_database_url
 
-if os.path.exists('env.py'):
+if os.path.isfile('env.py'):
     import env
 
 CLOUDINARY_STORAGE = {
@@ -66,6 +66,8 @@ ALLOWED_HOSTS = [
     'localhost',
     '8000-wulle91-drfapi-nlp38vf1ucy.ws-eu100.gitpod.io',
 ]
+
+CSRF_TRUSTED_ORIGINS = ['https://8000-wulle91-djangoreact-5643y6znzg1.ws-eu100.gitpod.io', 'https://pythondjangorest-f503576af96c.herokuapp.com']
 
 if 'CLIENT_ORIGIN' in os.environ:
     CORS_ALLOWED_ORIGINS = [
